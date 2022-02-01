@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(291.04deg, rgba(100, 111, 115, 0.66) 23.44%, rgba(145, 192, 218, 0.32) 59.9%, rgba(246, 250, 252, 0.56) 86.46%), #99B0BD;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.cabecalho-imagem{
+    margin-top: -100px;
+    height: 150px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Hanuman', sans-serif;
+    font-weight: bold;
+    color: #33393c;
+    font-size: 20px;
+    text-align: center;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #237092;
+}
+
+
+
+.conteudo-sinopse{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+.conteudo-sinopse-imagem{
+    
+}
+
+.conteudo-sinopse-escrito{
+    padding: 50px;
+    text-align: center;
+}
+
+.conteudo-sinopse-escrito-resumo{
+    text-align: center;
+    font-family: 'Hanuman', sans-serif;
+    color: #33393c;
+    font-size: 24px;
+}
+
+.conteudo-sinopse-escrito-botao{
+    width: 120px;
+    height: 40px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    background-color: #265A71;
+    color: #fff;
+    font-family: 'Hanuman', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.conteudo-sinopse-escrito-botao:hover{
+    background-color: #99C7E0;
+    color: #33393c;
+    font-weight: 400;
+}
+
+
+
+.conteudo-informacoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px;
+    border-top: 0.4px solid #237092;
+    
+}
+
+.conteudo-informacoes hr{
+    width: 30%;
+}
+
+.conteudo-informacoes-imagem{
+    margin-left: 50px;
+}
+
+.conteudo-informacoes-escrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 130px;
+}
+
+.conteudo-informacoes-escrito-esquerda{
+    text-align: right;
+    font-family: 'Hanuman', sans-serif;
+    color: #33393c;
+    font-size: 20px;
+    padding: 0px 5px 0px 0px;
+    
+}
+
+.conteudo-informacoes-escrito-direita{
+    text-align: left;
+    font-family: 'Hanuman', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0px 0px 0px 5px;
+  
+}
+
+.conteudo-informacoes-escrito-esquerda-direcao{
+    
+}
+
+.conteudo-informacoes-escrito-esquerda-elenco{
+    
+}
+
+.conteudo-informacoes-escrito-esquerda-genero{
+    padding-top: 60px;
+}
+
+.conteudo-informacoes-escrito-esquerda-classificacao{
+    text-align: ;
+    padding-top: 65px;
+}
+
+.conteudo-informacoes-escrito-direita-direcao{
+    padding-top: px;
+}
+
+.conteudo-informacoes-escrito-direita-elenco{
+
+}
+
+.conteudo-informacoes-escrito-direita-genero{
+
+}
+
+.conteudo-informacoes-escrita-direita-classificacao-imagem{
+
+}
