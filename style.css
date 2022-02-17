@@ -44,18 +44,12 @@ body{
     border-top: 0.4px solid #237092;
 }
 
-
-
 .conteudo-sinopse{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 100px;
-}
-
-.conteudo-sinopse-imagem{
-    
 }
 
 .conteudo-sinopse-escrito{
@@ -91,81 +85,37 @@ body{
     font-weight: 400;
 }
 
-
-
 .conteudo-informacoes{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 200px;
+    padding: 150px 180px 150px 180px;
     border-top: 0.4px solid #237092;
-    
-}
-
-.conteudo-informacoes hr{
-    width: 30%;
-}
-
-.conteudo-informacoes-imagem{
-    margin-left: 50px;
 }
 
 .conteudo-informacoes-escrito{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: 130px;
-}
-
-.conteudo-informacoes-escrito-esquerda{
-    text-align: right;
+    text-align: center;
     font-family: 'Hanuman', sans-serif;
     color: #33393c;
-    font-size: 20px;
-    padding: 0px 5px 0px 0px;
-    
+    font-size: 20px; 
+    margin-left: 95px;
 }
 
-.conteudo-informacoes-escrito-direita{
-    text-align: left;
+.conteudo-informacoes-escrito strong{
+    color: #fff;
+}
+
+.conteudo-titulos{
+    border-top: 0.4px solid #237092;
+}
+
+.conteudo-titulos-titulo{
+    text-align: center;
     font-family: 'Hanuman', sans-serif;
     color: #fff;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
-    padding: 0px 0px 0px 5px;
-  
+    margin-top: 48px;
 }
 
-.conteudo-informacoes-escrito-esquerda-direcao{
-    
-}
-
-.conteudo-informacoes-escrito-esquerda-elenco{
-    
-}
-
-.conteudo-informacoes-escrito-esquerda-genero{
-    padding-top: 60px;
-}
-
-.conteudo-informacoes-escrito-esquerda-classificacao{
-    text-align: ;
-    padding-top: 65px;
-}
-
-.conteudo-informacoes-escrito-direita-direcao{
-    padding-top: px;
-}
-
-.conteudo-informacoes-escrito-direita-elenco{
-
-}
-
-.conteudo-informacoes-escrito-direita-genero{
-
-}
-
-.conteudo-informacoes-escrita-direita-classificacao-imagem{
-
-}
